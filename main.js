@@ -53,6 +53,7 @@ function createWindow() {
   });
 
   win.loadFile('index.html');
+  win.setSkipTaskbar(true)
   win.setVisibleOnAllWorkspaces(true);
 }
 
